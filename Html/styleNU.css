@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: none;
+    width: 400px;
+}
+
+ul {
+    list-style: none;
+}
+
+.Menuinicio li a {
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    }
+
+.Menuinicio  li p {
+    font-size: 300%;
+}  
+.Menuinicio > li {
+    float: left;
+}
+
+.Menuinicio li ul {
+    display: none;
+    position:absolute
+    min: width 140px;
+}
+
+.Menuinicio li:hover > ul {
+    display: block;
+}
